@@ -46,7 +46,7 @@ while Flag == 1:
 
     for i in range(0, number_of_player):
         if 0 in list(Player_Scores.values()):
-            Flag == 0
+            Flag = 0
         else:
             score = int(input(f"Insert score of {Players[i]}"))
             New_Score = CalculateScore(score, list(Player_Scores.values())[i])
